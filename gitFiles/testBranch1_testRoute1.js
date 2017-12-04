@@ -4,5 +4,5 @@ const SELF = "editor/testRoute1";
 
 module.exports = (req, res) => {
     console.log(">>>1");
-    responseHandler.sendOkay(res, "testRoute1");
+    responseHandler.sendOkay(res, "testRoute1:testBranch1");
 }
